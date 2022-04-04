@@ -8,7 +8,7 @@ const Navbar = ({ user }) => {
     <div className="navbar">
       <span className="logo">
         <Link className="link" to="/">
-          Lama App
+         Passport App
         </Link>
       </span>
       {user ? (
