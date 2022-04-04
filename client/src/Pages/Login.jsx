@@ -8,11 +8,11 @@ const Login = () => {
   };
 
   const github = () => {
-     
+    window.open("http://localhost:5000/auth/github", "_self");
   };
 
   const facebook = () => {
-     
+    window.open("http://localhost:5000/auth/facebook", "_self");
   };
 
   return (
